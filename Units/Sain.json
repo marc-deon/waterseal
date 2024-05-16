@@ -1,0 +1,26 @@
+{
+    "name": "Sain",
+    "kind": {
+        "name": "Cavalier",
+        "symbol": "C",
+        "movementType": "Horse"
+    },
+
+    "level": 1,
+    "hp": 19,
+    "stats": {
+        "strength":   8,
+        "magic":      0,
+        "defense":    6,
+        "accuracy":   4,
+        "speed":      6,
+        "luck":       4,
+        "resistance": 0,
+        "weight":     9
+    },
+
+    "items": [
+        "IronSword",
+        "Vulnerary"
+    ]
+}

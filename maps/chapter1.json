@@ -1,0 +1,45 @@
+{
+    "___comment":"key current unuused",
+    "key" : {
+        "0": "Plain",
+        "1": "Wall",
+        "2": "Woods",
+        "3": "Hill",
+        "4": "River",
+        "5": "Mountain",
+        "6": "Cliff",
+        "7": "Ocean",
+        "8": "Bridge"
+    },
+
+    "x": 16,
+    "y": 10,
+    "map": ["0000102033304555",
+            "1011100000004005",
+            "0002002600208000",
+            "2000000006004000",
+            "0020020200004400",
+            "0002000020000800",
+            "2022002022000440",
+            "2002002002000040",
+            "0002022200000676",
+            "0200002020676777"
+        ],
+
+    "conditions":{
+        "VC_Boss": "Zugu",
+        "LC_UnitDeath": "Lyn",
+        "LC_TurnCount": 20
+    },
+
+    "partyNames":["Blue Team", "Zugu Team"],
+
+    "_comment": "spawns used for configurable, player chosen spawns. Only in Ch1 for example.",
+    "spawns": [ [2,8], [0,7], [0,5] ],
+
+    "__comment": "Everything after underscore is ignored",
+    "predeploy":[
+        {"Lyn": [2,8], "Kent": [0,7], "Sain": [0,5]},
+        { "Barbarian_1": [4,6], "Barbarian_2": [9,9], "Barbarian_3": [13,5], "Barbarian_4": [12,1], "Bosses/Zugu": [13,1] }
+    ]
+}

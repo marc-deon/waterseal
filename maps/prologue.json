@@ -1,0 +1,44 @@
+{
+    "key" : {
+        ".": "Plain",
+        "1": "Wall",
+        "2": "Woods",
+        "3": "Hill",
+        "4": "River",
+        "n": "Mountain",
+        "^": "Peak",
+        "/": "Cliff",
+        "7": "Ocean",
+        "8": "Bridge",
+        "D": "Door",
+        "T": "Throne",
+        "F": "Fort",
+        "I": "Pillar",
+        "H": "House",
+        "c": "Crack"
+    },
+
+    "map": ["nn111..2.nn^^^^",
+            "..111......nn^^",
+            "...T.........nn",
+            "...............",
+            "...............",
+            "...............",
+            "...............",
+            "/............2.",
+            "/.........../2.",
+            "7.2......777/.H"
+        ],
+
+    "conditions":{
+        "VC_Seize": [3, 2],
+        "LC_UnitDeath": "Lyn",
+        "LC_TurnCount": 20
+    },
+
+    "partyNames":["Blue Team"],
+
+    "predeploy":[
+        {"Lyn": [2,2]}
+    ]
+}

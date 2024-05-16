@@ -1,0 +1,65 @@
+{
+    "title": "Water Seal 7: Blazing Bong",
+    "_comment": "event types are: dialogue, combat, (combat) preparation, (obtain) item, (unit) recruit, (unit) promotion, (unit) move",
+
+    "events": [
+        {
+            "type": "recruit",
+            "target": "Lyn",
+            "silent": true
+        },
+        {
+            "type": "dialogue",
+            "file": "dialogue/prologue.json",
+            "name": "0"
+        },
+        {
+            "type": "combat",
+            "_file": "maps/prologue.json",
+            "file": "maps/chapter1.json"
+        },
+        {
+            "type": "dialogue",
+            "file":"dialogue/prologue.json",
+            "name": "1"
+        },
+
+        {
+            "type": "dialogue",
+            "file": "dialogue/chapter1.json",
+            "name": "0"
+        },
+        {
+            "type": "recruit",
+            "target": "Kent"
+        },
+        {
+            "type": "recruit",
+            "target": "Sain"
+        },
+        {
+            "type": "combat",
+            "file": "maps/chapter1.json"
+        },
+        {
+            "type": "dialogue",
+            "file":"dialogue/chapter1.json",
+            "name": "1"
+        },
+        {
+            "type": "dialogue",
+            "file": "dialogue/chapter2.json",
+            "name": "0"
+        },
+        {
+            "type": "combat",
+            "file": "maps/chapter2.json"
+        },
+        {
+            "type": "dialogue",
+            "file":"dialogue/chapter2.json",
+            "name": "1"
+        }
+    ]
+
+}

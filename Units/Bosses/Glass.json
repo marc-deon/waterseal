@@ -1,0 +1,26 @@
+{
+    "name": "Glass",
+    "kind": {
+        "name": "Mercenary",
+        "symbol": "M",
+        "movementType": "Foot"
+    },
+
+    "level": 3,
+    "hp": 20,
+    "stats": {
+        "strength":   5,
+        "magic":      0,
+        "defense":    3,
+        "accuracy":   4,
+        "speed":      5,
+        "luck":       0,
+        "resistance": 0,
+        "weight":     9
+    },
+
+    "items": [
+        "IronSword",
+        "Vulnerary"
+    ]
+}

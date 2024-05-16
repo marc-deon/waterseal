@@ -1,0 +1,26 @@
+{
+    "name": "Kent",
+    "kind": {
+        "name": "Cavalier",
+        "symbol": "C",
+        "movementType": "Horse"
+    },
+
+    "level": 1,
+    "hp": 20,
+    "stats": {
+        "strength":   6,
+        "magic":      0,
+        "defense":    5,
+        "accuracy":   6,
+        "speed":      7,
+        "luck":       2,
+        "resistance": 1,
+        "weight":     9
+    },
+
+    "items": [
+        "IronSword",
+        "Vulnerary"
+    ]
+}

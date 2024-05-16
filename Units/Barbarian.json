@@ -1,0 +1,25 @@
+{
+    "name": "Barbarian",
+    "kind": {
+        "name": "Brigand",
+        "symbol": "b",
+        "movementType": "Foot"
+    },
+
+    "level": 2,
+    "hp": 16,
+    "stats": {
+        "strength":   3,
+        "magic":      0,
+        "defense":    3,
+        "accuracy":   1,
+        "speed":      4,
+        "luck":       0,
+        "resistance": 0,
+        "weight":     12
+    },
+
+    "items": [
+        "IronAxe"
+    ]
+}

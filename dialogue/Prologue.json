@@ -1,0 +1,75 @@
+{
+    "0": {
+    "boxes":
+        [
+            {
+                "actor": "??",
+                "text": "Are you awake?",
+                "background": "black"
+            },
+            {
+                "actor": "Girl",
+                "text": "I found you unconcious on the plains.",
+                "background": "prologue_cg_1"
+            },
+            {
+                "actor": "Lyn",
+                "text": "I am Lyn, of the Lorca tribe.\nYou're safe now.",
+                "background": "yurt"
+            },
+            {
+                "text": "Who are you?\nCan you remember your name?"
+            },
+            {
+                "text": "Your name is asdf?\nWhat an odd sounding name..."
+            },
+            {
+                "text": "But pay me no mind.\nIt is a good name."
+            },
+            {
+                "text": "I see by your attire that you are a traveler."
+            },
+            {
+                "text": "What brings you to the Sacae Plains? Would you share your story with me?"
+            },
+            {
+                "text": "Hm? What was that noise?"
+            },
+            {
+                "text": "I'll go see what's happening. asdf, wait here for me."
+            },
+            {
+                "hideActor": "Lyn",
+                "background": "$maps/prologue.json",
+                "spawnUnit": ["Lyn", ["x","y"]]
+            },
+            {
+                "moveUnit": ["Lyn", ["x","y"]]
+            },
+            {
+                "moveUnit": ["Lyn", ["x","y"]]
+            },
+            {
+                "despawnUnit": "Lyn"
+            },
+            {
+                "showActor": "Lyn",
+                "background": "yurt",
+                "text": "Oh, no! Bandits! They must have come down from the Bern Mountains! They must be planning on raiding the local villages. I... I have to stop them!"
+            },
+            {
+                "text": "If that's all of them, I think I can handle them on my own. You'll be safe in here, Mark."
+            },
+            {
+                "text": "What? You want to help? Well, can you use a weapon?"
+            },
+            {
+                "text": "Ah, I see... So you're a strategist by tade? An odd profession, but..."
+            },
+            {
+                "text": "Very well. We'll go together!"
+            }
+        ]
+    }
+
+}

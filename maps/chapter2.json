@@ -1,0 +1,55 @@
+{
+    "key" : {
+        "0": "Plain",
+        "1": "Wall",
+        "2": "Woods",
+        "3": "Hill",
+        "4": "River",
+        "5": "Mountain",
+        "6": "Cliff",
+        "7": "Ocean",
+        "8": "Bridge",
+        "D": "Door",
+        "T": "Throne",
+        "F": "Fort",
+        "I": "Pillar",
+        "H": "House",
+        "c": "Crack"
+    },
+
+    "x": 15,
+    "y": 10,
+    "map": ["0000220011111D1",
+            "00000220100T001",
+            "00FF00021000001",
+            "00000200c0I0I01",
+            "020000201000001",
+            "000201001000001",
+            "000201001110111",
+            "HH0011031110111",
+            "002010332000202",
+            "H00010310200020"
+        ],
+
+    "conditions":{
+        "VC_Boss": "Glass",
+        "LC_UnitDeath": "Lyn",
+        "LC_TurnCount": 20
+    },
+
+    "partyNames":["Blue Team", "Red Team"],
+
+    "spawns": [ [0,3], [1,3], [1,5] ],
+
+    "__comment": "Everything after underscore is ignored",
+    "predeploy":[
+        {"Lyn": [0,3]},
+        { "Barbarian_1": [7,0], "Barbarian_2": [7,9], "Barbarian_3": [11,9], "Barbarian_4": [13,8], "Barbarian_5": [11,3], "Bosses/Glass": [11,1] }
+    ],
+
+    "villages":[
+        ["House A", "House A-2"],
+        ["House B", "House B-2"],
+        ["House C", "House C-2"]
+    ]
+}
